@@ -1,0 +1,1123 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:block": {
+    "description": {
+      "identifier": "adp:granite_disenchanting_altar",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "adp:powered": [
+          false,
+          true
+        ],
+        "adp:rune_color": [
+          "cyan",
+          "white",
+          "orange",
+          "magenta",
+          "light_blue",
+          "yellow",
+          "lime",
+          "pink",
+          "gray",
+          "light_gray",
+          "purple",
+          "blue",
+          "brown",
+          "green",
+          "red",
+          "black"
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.adp_disenchanting_altar",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "adp_body_granite",
+          "render_method": "alpha_test"
+        },
+        "body": {
+          "texture": "adp_body_granite",
+          "render_method": "alpha_test"
+        },
+        "copper": {
+          "texture": "copper_block",
+          "render_method": "alpha_test"
+        },
+        "panel": {
+          "texture": "polished_tuff",
+          "render_method": "alpha_test"
+        },
+        "amethyst": {
+          "texture": "amethyst_cluster",
+          "render_method": "alpha_test"
+        },
+        "amethyst_bud": {
+          "texture": "medium_amethyst_bud",
+          "render_method": "alpha_test"
+        },
+        "amethyst_core": {
+          "texture": "amethyst_block",
+          "render_method": "alpha_test"
+        },
+        "amethyst_glow": {
+          "texture": "adp_amethyst_inner_glow",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        },
+        "top_runes": {
+          "texture": "adp_altar_top_runes",
+          "render_method": "alpha_test",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        },
+        "glint": {
+          "texture": "adp_workstation_glint",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        },
+        "runes": {
+          "texture": "adp_workstation_runes_cyan",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          16,
+          16
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 4
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:loot": "loot_tables/blocks/workstations/granite_disenchanting_altar.json",
+      "minecraft:map_color": "#5A5860",
+      "minecraft:light_emission": 1,
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "tag:minecraft:stone_tier_destructible": {},
+      "tag:adp:disenchanting_workstation": {},
+      "tag:adp:disenchanting_altar": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('adp:rune_color') == 'cyan'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_cyan",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'white'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_white",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'orange'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_orange",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'magenta'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_magenta",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'light_blue'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_light_blue",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'yellow'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_yellow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'lime'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_lime",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'pink'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_pink",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'gray'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_gray",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'light_gray'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_light_gray",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'purple'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_purple",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'blue'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_blue",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'brown'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_brown",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'green'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_green",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'red'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_red",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:rune_color') == 'black'",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "body": {
+              "texture": "adp_body_granite",
+              "render_method": "alpha_test"
+            },
+            "copper": {
+              "texture": "copper_block",
+              "render_method": "alpha_test"
+            },
+            "panel": {
+              "texture": "polished_tuff",
+              "render_method": "alpha_test"
+            },
+            "amethyst": {
+              "texture": "amethyst_cluster",
+              "render_method": "alpha_test"
+            },
+            "amethyst_bud": {
+              "texture": "medium_amethyst_bud",
+              "render_method": "alpha_test"
+            },
+            "amethyst_core": {
+              "texture": "amethyst_block",
+              "render_method": "alpha_test"
+            },
+            "amethyst_glow": {
+              "texture": "adp_amethyst_inner_glow",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "top_runes": {
+              "texture": "adp_altar_top_runes",
+              "render_method": "alpha_test",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "glint": {
+              "texture": "adp_workstation_glint",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            },
+            "runes": {
+              "texture": "adp_workstation_runes_black",
+              "render_method": "alpha_test",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('adp:powered') == true",
+        "components": {
+          "minecraft:light_emission": 3
+        }
+      }
+    ]
+  }
+}

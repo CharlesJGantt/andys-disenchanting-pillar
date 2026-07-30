@@ -1,0 +1,298 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "adp:disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:stone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:stone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:smooth_stone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:smooth_stone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:cobblestone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:cobblestone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:mossy_cobblestone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:mossy_cobblestone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:stone_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:stone_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:mossy_stone_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:mossy_stone_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:cracked_stone_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:cracked_stone_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:chiseled_stone_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:chiseled_stone_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:andesite_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:andesite_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:polished_andesite_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:polished_andesite_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:diorite_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:diorite_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:polished_diorite_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:polished_diorite_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:granite_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:granite_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:polished_granite_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:polished_granite_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:tuff_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:tuff_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:polished_tuff_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:polished_tuff_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:tuff_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:tuff_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:chiseled_tuff_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:chiseled_tuff_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:deepslate_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:deepslate_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:cobbled_deepslate_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:cobbled_deepslate_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:polished_deepslate_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:polished_deepslate_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:deepslate_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:deepslate_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:cracked_deepslate_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:cracked_deepslate_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:deepslate_tiles_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:deepslate_tiles_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:cracked_deepslate_tiles_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:cracked_deepslate_tiles_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:chiseled_deepslate_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:chiseled_deepslate_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:mud_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:mud_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:packed_mud_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:packed_mud_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:calcite_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:calcite_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:dripstone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:dripstone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:quartz_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:quartz_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:smooth_quartz_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:smooth_quartz_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:quartz_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:quartz_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:chiseled_quartz_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:chiseled_quartz_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:sandstone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:sandstone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:smooth_sandstone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:smooth_sandstone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:chiseled_sandstone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:chiseled_sandstone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:cut_sandstone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:cut_sandstone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:netherrack_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:netherrack_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:nether_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:nether_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:red_nether_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:red_nether_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:blackstone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:blackstone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:polished_blackstone_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:polished_blackstone_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:polished_blackstone_bricks_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:polished_blackstone_bricks_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:basalt_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:basalt_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:polished_basalt_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:polished_basalt_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:prismarine_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:prismarine_disenchanting_altar": {
+    "sound": "stone"
+  },
+  "adp:dark_prismarine_disenchanting_pillar": {
+    "sound": "stone"
+  },
+  "adp:dark_prismarine_disenchanting_altar": {
+    "sound": "stone"
+  }
+}

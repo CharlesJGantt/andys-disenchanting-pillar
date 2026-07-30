@@ -1,0 +1,351 @@
+{
+  "namespace": "horse",
+  "adp_slot_item@common.container_item": {
+    "$item_collection_name": "container_items"
+  },
+  "adp_empty_slot_background": {
+    "type": "panel"
+  },
+  "adp_page_item@common.container_item": {
+    "$item_collection_name": "container_items",
+    "$background_images": "horse.adp_empty_slot_background",
+    "$cell_overlay_ref": "horse.adp_empty_slot_background"
+  },
+  "adp_choice_row": {
+    "type": "panel",
+    "size": [154, 18],
+    "controls": [
+      {
+        "choice_slot@common.container_item": {
+          "$item_collection_name": "container_items",
+          "size": [154, 18],
+          "$cell_image_size": [154, 18],
+          "$item_renderer_panel_size": [154, 18],
+          "$item_renderer_size": [16, 16],
+          "$item_renderer_offset": [-68, 0]
+        }
+      },
+      {
+        "row_name": {
+          "type": "label",
+          "size": [130, 18],
+          "offset": [22, 0],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "text": "#hover_text",
+          "text_alignment": "left",
+          "font_scale_factor": 0.75,
+          "shadow": true,
+          "localize": false,
+          "layer": 20,
+          "bindings": [
+            {
+              "binding_type": "collection_details",
+              "binding_collection_name": "container_items"
+            },
+            {
+              "binding_type": "collection",
+              "binding_collection_name": "container_items",
+              "binding_name": "#hover_text"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "adp_slot_holder": {
+    "type": "panel",
+    "ignored": true
+  },
+  "adp_container_grid": {
+    "type": "grid",
+    "size": [162, 18],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [18, 1],
+    "collection_name": "container_items",
+    "controls": [
+      {
+        "source@horse.adp_slot_holder": {
+          "grid_position": [0, 0],
+          "ignored": false,
+          "controls": [
+            { "item@horse.adp_slot_item": { "offset": [7, 37] } }
+          ]
+        }
+      },
+      {
+        "books@horse.adp_slot_holder": {
+          "grid_position": [1, 0],
+          "ignored": false,
+          "controls": [
+            { "item@horse.adp_slot_item": { "offset": [40, 37] } }
+          ]
+        }
+      },
+      {
+        "output@horse.adp_slot_holder": {
+          "grid_position": [2, 0],
+          "ignored": false,
+          "controls": [
+            { "item@horse.adp_slot_item": { "offset": [115, 37] } }
+          ]
+        }
+      },
+      {
+        "amethyst@horse.adp_slot_holder": {
+          "grid_position": [9, 0],
+          "ignored": false,
+          "controls": [
+            { "item@horse.adp_slot_item": { "offset": [10, 37] } }
+          ]
+        }
+      },
+      {
+        "choice_01@horse.adp_slot_holder": {
+          "grid_position": [3, 0],
+          "ignored": false,
+          "controls": [
+            { "item@horse.adp_choice_row": { "offset": [53, 82] } }
+          ]
+        }
+      },
+      {
+        "choice_02@horse.adp_slot_holder": {
+          "grid_position": [4, 0],
+          "ignored": false,
+          "controls": [
+            { "item@horse.adp_choice_row": { "offset": [44, 100] } }
+          ]
+        }
+      },
+      {
+        "choice_03@horse.adp_slot_holder": {
+          "grid_position": [5, 0],
+          "ignored": false,
+          "controls": [
+            { "item@horse.adp_choice_row": { "offset": [35, 118] } }
+          ]
+        }
+      },
+      {
+        "choice_04@horse.adp_slot_holder": {
+          "grid_position": [6, 0],
+          "ignored": false,
+          "controls": [
+            { "item@horse.adp_choice_row": { "offset": [26, 136] } }
+          ]
+        }
+      },
+      {
+        "previous_page@horse.adp_slot_holder": {
+          "grid_position": [7, 0],
+          "ignored": false,
+          "controls": [
+            { "item@horse.adp_page_item": { "offset": [59, 63] } }
+          ]
+        }
+      },
+      {
+        "next_page@horse.adp_slot_holder": {
+          "grid_position": [8, 0],
+          "ignored": false,
+          "controls": [
+            { "item@horse.adp_page_item": { "offset": [74, 63] } }
+          ]
+        }
+      },
+      { "hidden_10@horse.adp_slot_holder": { "grid_position": [10, 0] } },
+      { "hidden_11@horse.adp_slot_holder": { "grid_position": [11, 0] } },
+      { "hidden_12@horse.adp_slot_holder": { "grid_position": [12, 0] } },
+      { "hidden_13@horse.adp_slot_holder": { "grid_position": [13, 0] } },
+      { "hidden_14@horse.adp_slot_holder": { "grid_position": [14, 0] } },
+      { "hidden_15@horse.adp_slot_holder": { "grid_position": [15, 0] } },
+      { "hidden_16@horse.adp_slot_holder": { "grid_position": [16, 0] } },
+      { "hidden_17@horse.adp_slot_holder": { "grid_position": [17, 0] } }
+    ]
+  },
+  "adp_root@common.root_panel": {
+    "size": [176, 245],
+    "layer": 1,
+    "controls": [
+      { "common_panel@common.common_panel": { "$use_compact_close_button": true } },
+      {
+        "title": {
+          "type": "label",
+          "text": "Andy's Disenchanting Pillar",
+          "offset": [7, 6],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": "$title_text_color",
+          "layer": 5
+        }
+      },
+      {
+        "item_label": {
+          "type": "label",
+          "text": "Item",
+          "size": [32, 10],
+          "offset": [0, 24],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "text_alignment": "center",
+          "layer": 5
+        }
+      },
+      {
+        "books_label": {
+          "type": "label",
+          "text": "Books",
+          "size": [40, 10],
+          "offset": [38, 24],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "text_alignment": "center",
+          "layer": 5
+        }
+      },
+      {
+        "amethyst_name_label": {
+          "type": "label",
+          "text": "Amethyst",
+          "size": [40, 8],
+          "offset": [80, 17],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "text_alignment": "center",
+          "font_scale_factor": 0.7,
+          "layer": 5
+        }
+      },
+      {
+        "amethyst_label": {
+          "type": "label",
+          "text": "Shards",
+          "size": [40, 10],
+          "offset": [80, 24],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "text_alignment": "center",
+          "layer": 5
+        }
+      },
+      {
+        "output_label": {
+          "type": "label",
+          "text": "Output",
+          "size": [40, 10],
+          "offset": [122, 24],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "text_alignment": "center",
+          "layer": 5
+        }
+      },
+      {
+        "book_symbol": {
+          "type": "label",
+          "text": "+",
+          "offset": [34, 42],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": [0.45, 0.25, 0.65],
+          "layer": 5
+        }
+      },
+      {
+        "amethyst_symbol": {
+          "type": "label",
+          "text": "+",
+          "offset": [76, 42],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": [0.45, 0.25, 0.65],
+          "layer": 5
+        }
+      },
+      {
+        "output_symbol": {
+          "type": "label",
+          "text": ">",
+          "offset": [118, 42],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": [0.45, 0.25, 0.65],
+          "layer": 5
+        }
+      },
+      {
+        "disenchant_label": {
+          "type": "label",
+          "text": "DISENCHANT",
+          "offset": [116, 59],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": [0.35, 0.75, 0.95],
+          "font_scale_factor": 0.8,
+          "layer": 5
+        }
+      },
+      {
+        "choices_label": {
+          "type": "label",
+          "text": "Enchantments",
+          "offset": [7, 68],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "layer": 5
+        }
+      },
+      { "station_slots@horse.adp_container_grid": { "offset": [0, 0], "layer": 6 } },
+      { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+      { "hotbar_grid@common.hotbar_grid_template": {} },
+      { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} },
+      { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+      { "gamepad_cursor@common.gamepad_cursor_button": {} }
+    ]
+  },
+  "adp_panel": {
+    "type": "panel",
+    "controls": [
+      { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+      { "selected_item_details_factory@common.selected_item_details_factory": {} },
+      { "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+      { "root@horse.adp_root": {} },
+      { "flying_item_renderer@common.flying_item_renderer": { "layer": 30 } }
+    ]
+  },
+  "horse_screen@common.inventory_screen_common": {
+    "$close_on_player_hurt|default": false,
+    "$adp_title|default": "$container_title",
+    "close_on_player_hurt": "$close_on_player_hurt",
+    "variables": [
+      {
+        "requires": "$desktop_screen",
+        "$screen_content": "horse.horse_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "$pocket_screen",
+        "$screen_content": "horse_pocket.horse_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$close_on_player_hurt": true,
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "($desktop_screen and ($adp_title = '§r§r§rADP_CONTAINER'))",
+        "$screen_content": "horse.adp_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$screen_background_alpha": 0.4
+      },
+      {
+        "requires": "($pocket_screen and ($adp_title = '§r§r§rADP_CONTAINER'))",
+        "$screen_content": "horse.adp_panel",
+        "$screen_bg_content": "common.screen_background",
+        "$close_on_player_hurt": true,
+        "$screen_background_alpha": 0.4
+      }
+    ]
+  }
+}

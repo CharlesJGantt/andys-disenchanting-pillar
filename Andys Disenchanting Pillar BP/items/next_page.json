@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "adp:next_page"
+    },
+    "components": {
+      "minecraft:icon": "adp_next_page",
+      "minecraft:display_name": {
+        "value": "More Enchantments"
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

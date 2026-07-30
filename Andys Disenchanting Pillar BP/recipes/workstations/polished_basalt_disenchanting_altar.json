@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "adp:polished_basalt_disenchanting_altar"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "ingredients": [
+      {
+        "item": "adp:polished_basalt_disenchanting_pillar"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      }
+    ],
+    "result": {
+      "item": "adp:polished_basalt_disenchanting_altar",
+      "count": 1
+    }
+  }
+}

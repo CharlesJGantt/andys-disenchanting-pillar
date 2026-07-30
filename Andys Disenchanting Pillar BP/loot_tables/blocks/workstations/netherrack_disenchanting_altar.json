@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "adp:netherrack_disenchanting_altar",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

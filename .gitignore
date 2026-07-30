@@ -1,0 +1,30 @@
+# Build staging
+.build/
+__pycache__/
+*.tmp.zip
+
+# Internal maintainer documentation; keep local, do not publish
+INTERNAL_TECHNICAL.md
+PRIVATE_CREATOR_NOTES.md
+README_RELEASE_DRAFT.md
+RELEASE_LISTING_DRAFT.md
+CURSEFORGE_DESCRIPTION_DRAFT.md
+docs/
+.agents/
+
+# Supplied reference packages are intentionally excluded
+Ancients Lost Runes*.mcaddon
+DisEnchanter Addon*.mcaddon
+Inspiration/
+
+# Publish only the combined installer, not the fallback component installers
+dist/*.mcpack
+
+# Retain only approved final promotional artwork in the public repository
+artwork/*-source.png
+artwork/*-v1.*
+
+# Common local files
+.DS_Store
+Thumbs.db
+*.log

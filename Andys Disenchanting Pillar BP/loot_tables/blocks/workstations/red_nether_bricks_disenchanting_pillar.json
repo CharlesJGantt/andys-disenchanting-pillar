@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "adp:red_nether_bricks_disenchanting_pillar",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
