@@ -8,9 +8,9 @@ It behaves like a reverse enchanting workstation: load an enchanted item, blank 
 
 The costs are intentionally substantial. Moving a valuable enchantment without destroying the source item is powerful, so the add-on requires mid-game materials and recurring resources to keep the feature useful without making vanilla enchanting, exploration, loot, or anvil progression irrelevant in Survival.
 
-Current version: **1.6.5**
+Current version: **1.6.8**
 
-[Download Andy's Disenchanting Pillar v1.6.5](<dist/Andys Disenchanting Pillar v1.6.5.mcaddon>)
+[Download Andy's Disenchanting Pillar v1.6.8](<dist/Andys Disenchanting Pillar v1.6.8.mcaddon>)
 
 ## Features
 
@@ -57,8 +57,8 @@ Unlike pillars, altars do not stack. This is only a visual difference; an altar 
 
 ## Requirements
 
-- Minecraft Bedrock with a minimum engine version of **1.26.0**.
-- Both included packs must be active at version 1.6.5.
+- Minecraft Bedrock with a minimum engine version of **1.26.30**.
+- Both included packs must be active at version 1.6.8.
 - Stable `@minecraft/server` 2.8.0 and `@minecraft/server-ui` 2.1.0 support.
 - For each extraction:
   - one enchanted source item;
@@ -68,7 +68,7 @@ Unlike pillars, altars do not stack. This is only a visual difference; an altar 
 
 ## Installation
 
-1. Download `Andys Disenchanting Pillar v1.6.5.mcaddon`.
+1. Download `Andys Disenchanting Pillar v1.6.8.mcaddon`.
 2. Open the file with Minecraft Bedrock.
 3. Wait for Bedrock to finish importing or updating both included packs.
 4. Create a world or edit an existing world.
@@ -235,6 +235,19 @@ Every successful extraction also consumes one ordinary book and eight amethyst s
 
 The balance is deliberate. The workstation preserves both the source item and the extracted enchantment, which can bypass much of the risk and randomness of normal enchanting. Requiring an enchanting table in the workstation recipe, plus a book, amethyst shards, and XP for every transfer, makes the add-on a powerful mid-game tool rather than a game-breaking unlimited enchantment splitter. Operators who want a different balance can adjust every XP category, special surcharge, and shard cost.
 
+## Behavior-pack gear settings
+
+Before entering a world, select the gear icon beside the Andy's Disenchanting Pillar behavior pack to configure:
+
+- the base XP level cost for Common, Uncommon, Rare, and Very Rare enchantments;
+- the additional cost for each enchantment level above I;
+- the minimum and maximum normal XP costs;
+- the Mending surcharge;
+- the curse surcharge;
+- the number of Amethyst Shards consumed per extraction.
+
+These values become the world defaults. The in-game operator menu can temporarily override them. Changing a value through the behavior-pack gear menu applies the new gear configuration and replaces any older in-game override.
+
 ## Dyeing the runes
 
 Hold any standard dye and interact with a pillar or altar. One dye is consumed outside Creative mode.
@@ -279,7 +292,7 @@ The menu controls:
 - Mending surcharge;
 - curse surcharge;
 - amethyst shards consumed per extraction;
-- reset to defaults.
+- reset to the behavior-pack gear settings.
 
 To request another guide:
 
@@ -318,7 +331,7 @@ Test unusual third-party items in a backed-up world because add-ons may store pr
 
 ## Updating from 1.4.x
 
-Version 1.6.5 retains the legacy block identifier for migration only.
+Version 1.6.8 retains the legacy block identifier for migration only.
 
 When a loaded legacy three-block pillar is found:
 
@@ -328,43 +341,6 @@ When a loaded legacy three-block pillar is found:
 - its storage entity and physical contents remain at the lower block.
 
 Test migration in a copied world before updating an irreplaceable save.
-
-## Building from source
-
-Run:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
-```
-
-To regenerate all workstation blocks, recipes, models, rune colors, PBR maps, and floating-rune particles:
-
-```powershell
-python .\tools\generate_workstation_family.py
-```
-
-The build validates JSON, JavaScript syntax, version alignment, PBR resources, and packaging before creating:
-
-```text
-dist/Andys Disenchanting Pillar v1.6.5.mcaddon
-```
-
-## Repository layout
-
-```text
-Andys Disenchanting Pillar BP/  Behavior pack, generated blocks/recipes, scripts, storage
-Andys Disenchanting Pillar RP/  Original geometry, rune assets, particles, PBR and UI
-tools/                          Deterministic family and visual-asset generation
-artwork/                        Approved CurseForge, GitHub, and YouTube release artwork
-dist/                           Versioned combined .mcaddon release installer
-ADDON_DESCRIPTION.md            Detailed feature and implementation overview
-CURSEFORGE_DESCRIPTION.md       Final public CurseForge project description
-CURSEFORGE_CHANGELOG_v1.6.5.md First-release CurseForge file changelog
-CURSEFORGE_METADATA.md          Categories, images, upload fields, and release checklist
-CURSEFORGE_SUMMARY.txt          253-character CurseForge listing summary
-LORE.md                         Public seed lore
-THIRD_PARTY_NOTICES.md          Licensing and attribution
-```
 
 ## Troubleshooting
 
@@ -378,7 +354,7 @@ THIRD_PARTY_NOTICES.md          Licensing and attribution
 
 ### The pillar or altar does not open
 
-- Confirm that both included packs are active at version 1.6.5.
+- Confirm that both included packs are active at version 1.6.8.
 - Interact with any visible part of the workstation. Either level of a tall pillar can be used.
 - Completely leave and reopen the world after installing or updating.
 - Test once with other UI-changing resource packs disabled.
@@ -432,7 +408,7 @@ Include:
 
 ## Status
 
-Version 1.6.5 is the first public release. The combined installer passes JSON, JavaScript, manifest, dependency, PBR-material, geometry, archive-layout, and release-content validation. Gameplay, crafting, stacking, altar interaction, dyeing, extraction, anvil reuse, the surface glint, and Vibrant Visuals presentation have been tested in-game.
+Version 1.6.5 was the first public release. Version 1.6.8 preserves full-model interaction while temporarily releasing the hidden interface target during mining, adds behavior-pack gear settings, and retains automatic recovery for missing interface storage. The combined installer passes JSON, JavaScript, manifest, settings, dependency, PBR-material, geometry, archive-layout, and release-content validation.
 
 ## License and attribution
 
@@ -442,6 +418,6 @@ You may use the unmodified add-on in personal worlds, multiplayer worlds, Realms
 
 Do not redistribute, mirror, sell, repackage, modify and publish, or claim the project as your own without written permission.
 
-See [LICENSE.md](LICENSE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the complete terms and attribution.
+The floating-rune visual is derived from a CC0 source and may be reused under the terms of that dedication. All other project code, models, textures, UI, branding, and documentation remain subject to the restrictions above.
 
 Minecraft is a trademark of Microsoft Corporation. This independent add-on is not an official Minecraft product and is not approved by or associated with Mojang or Microsoft.
