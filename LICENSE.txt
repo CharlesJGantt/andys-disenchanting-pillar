@@ -1,0 +1,21 @@
+# Andy The Maker Add-on License
+
+Copyright © 2026 Andy / AndyTheMakerMC. All rights reserved.
+
+## Player use permission
+
+You may download an official, unmodified release of this add-on from an official AndyTheMakerMC page and install, activate, and use it in your own Minecraft worlds, including single-player worlds, multiplayer worlds, Realms, and compatible Bedrock servers.
+
+This permission also allows Minecraft's normal world-pack delivery to players who join a world, Realm, or server where the official, unmodified add-on is active.
+
+## Content creator usage rights
+
+Content creators may use the official, unmodified add-on in original gameplay videos, livestreams, screenshots, tutorials, reviews, showcases, articles, social posts, and other original content, including monetized content. Credit to AndyTheMakerMC and a link to the official project page are appreciated whenever practical.
+
+## Restrictions
+
+You may not redistribute, reupload, rehost, mirror, resell, bundle, repackage, modify, translate, adapt, reverse engineer, decompile, disassemble, extract, or reuse this add-on, its source code, documentation, branding, textures, models, artwork, or other project contents without prior written permission.
+
+You may not provide the add-on file as a separate download, including through a world download, server pack, modpack, or archive. These permissions do not transfer ownership of the add-on or grant permission to create derivative works.
+
+Minecraft is a trademark of Microsoft Corporation. This project is not affiliated with, endorsed by, sponsored by, or associated with Microsoft or Mojang Studios.
