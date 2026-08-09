@@ -421,3 +421,16 @@ Do not redistribute, mirror, sell, repackage, modify and publish, or claim the p
 The floating-rune visual is derived from a CC0 source and may be reused under the terms of that dedication. All other project code, models, textures, UI, branding, and documentation remain subject to the restrictions above.
 
 Minecraft is a trademark of Microsoft Corporation. This independent add-on is not an official Minecraft product and is not approved by or associated with Mojang or Microsoft.
+
+## More Andy The Maker Add-ons
+
+Explore more official Andy The Maker-created add-ons for Minecraft Bedrock:
+
+- [Andy's Configurable Vein Miner & Tree Capacitor](https://github.com/CharlesJGantt/andys-configurable-vein-miner-and-tree-capacitor) — Crouch-activated configurable vein mining and tree felling.
+- [Andy's Copper Powered Rails](https://github.com/CharlesJGantt/andys-copper-powered-rails) — Craft powered rails with copper instead of gold.
+- [Andy's Dyeable Item Frames](https://github.com/CharlesJGantt/andys-dyeable-item-frames) — Dye normal and glow item frames with rotation and label controls.
+- [Andy's Handy Hotbar Reloader](https://github.com/CharlesJGantt/andys-handy-hotbar-reloader) — Auto-refill, slot memory, and per-player hotbar blueprints.
+- [Andy's Palette Paver](https://github.com/CharlesJGantt/andys-palette-paver) — Randomize hotbar block placement for natural-looking builds.
+- [Andy's Runebound Reliquary](https://github.com/CharlesJGantt/Andys-Runebound-Reliquary) — Survival-balanced, upgradeable experience storage.
+- [Andy's Silk Touch Relics](https://github.com/CharlesJGantt/Andys-Silk-Touch-Relics) — Achievement-friendly rare-block harvesting.
+- [Andy's Ticking Area Rune](https://github.com/CharlesJGantt/Andys-Ticking-Area-Rune) — Configurable ticking areas and chunk loading.
